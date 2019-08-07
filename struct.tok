@@ -1,0 +1,11 @@
+# 1 "struct.oc"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "struct.oc"
+   4   1.001 266 TOK_STRUCT    (struct)
+   4   1.008 276 TOK_IDENT     (foo)
+   4   1.011 123 '{'           ({)
+   4   2.004 260 TOK_INT       (int)
+   4   2.008 276 TOK_IDENT     (bar)
+   4   2.011  59 ';'           (;)
+   4   3.001 125 '}'           (})

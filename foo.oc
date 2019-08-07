@@ -1,0 +1,63 @@
+2;
+
+int a = 3;
+
+string a = "wesesee";
+
+string b = null;
+
+void [] c = null;
+
+int d = a;
+
+f;
+
+string r = "";
+
+!r;
+
+!5;
+
+string e = +3;
+
++3;
+
+int h = -2;
+
+-4;
+
+int h = null;
+
+int w = 3 + 2 * 4 / 1 * a;
+
+if(2==3)
+4+6;
+else 1+3;
+
+if(r) 22;
+
+if(null) 0;
+
+while(2+3) {
+	int a = 3;
+	string r = null;
+	int a = 3;
+	if(a<=3){ a = 2; int a = 3; a = 2;}
+}
+
+
+while(4>=null) 22;
+
+while(null) 0;
+
+foo bar = null;
+
+r = "hello";
+
+int [] let = null;
+
+int call(int k, string v, int li);
+
+int call(string k, string v, int li);
+
+int call(int k, string v, int li){ if(1){int blockblock = 1;} return 0;}

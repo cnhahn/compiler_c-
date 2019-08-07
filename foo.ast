@@ -1,0 +1,172 @@
+TOK_ROOT "<<ROOT>>" 0.0.0 { 0 } 
+|  TOK_INTCON "2" 4.1.1 { 0 } int const 
+|  TOK_VARDECL "=" 4.3.7 { 0 } 
+|  |  TOK_DECLID "a" 4.3.5 { 0 } int variable lval 
+|  |  |  TOK_INT "int" 4.3.1 { 0 } 
+|  |  TOK_INTCON "3" 4.3.9 { 0 } int const 
+|  TOK_VARDECL "=" 4.5.10 { 0 } 
+|  |  TOK_DECLID "a" 4.5.8 { 0 } string variable lval 
+|  |  |  TOK_STRING "string" 4.5.1 { 0 } 
+|  |  TOK_STRINGCON ""wesesee"" 4.5.12 { 0 } string const 
+|  TOK_VARDECL "=" 4.7.10 { 0 } 
+|  |  TOK_DECLID "b" 4.7.8 { 0 } string variable lval 
+|  |  |  TOK_STRING "string" 4.7.1 { 0 } 
+|  |  TOK_NULL "null" 4.7.12 { 0 } null const 
+|  TOK_VARDECL "=" 4.9.11 { 0 } 
+|  |  TOK_DECLID "c" 4.9.9 { 0 } void array variable lval 
+|  |  |  TOK_VOID "void" 4.9.1 { 0 } 
+|  |  |  TOK_NEWARRAY "[]" 4.9.6 { 0 } 
+|  |  TOK_NULL "null" 4.9.13 { 0 } null const 
+|  TOK_VARDECL "=" 4.11.7 { 0 } 
+|  |  TOK_DECLID "d" 4.11.5 { 0 } int variable lval 
+|  |  |  TOK_INT "int" 4.11.1 { 0 } 
+|  |  TOK_IDENT "a" 4.11.9 { 0 } int variable lval (4.3.5)
+|  TOK_IDENT "f" 4.13.1 { 0 } 
+|  TOK_VARDECL "=" 4.15.10 { 0 } 
+|  |  TOK_DECLID "r" 4.15.8 { 0 } string variable lval 
+|  |  |  TOK_STRING "string" 4.15.1 { 0 } 
+|  |  TOK_STRINGCON """" 4.15.12 { 0 } string const 
+|  '!' "!" 4.17.1 { 0 } 
+|  |  TOK_IDENT "r" 4.17.2 { 0 } string variable lval (4.15.8)
+|  '!' "!" 4.19.1 { 0 } int vreg 
+|  |  TOK_INTCON "5" 4.19.2 { 0 } int const 
+|  TOK_VARDECL "=" 4.21.10 { 0 } 
+|  |  TOK_DECLID "e" 4.21.8 { 0 } string variable lval 
+|  |  |  TOK_STRING "string" 4.21.1 { 0 } 
+|  |  TOK_POS "+" 4.21.12 { 0 } int vreg 
+|  |  |  TOK_INTCON "3" 4.21.13 { 0 } int const 
+|  TOK_POS "+" 4.23.1 { 0 } int vreg 
+|  |  TOK_INTCON "3" 4.23.2 { 0 } int const 
+|  TOK_VARDECL "=" 4.25.7 { 0 } 
+|  |  TOK_DECLID "h" 4.25.5 { 0 } int variable lval 
+|  |  |  TOK_INT "int" 4.25.1 { 0 } 
+|  |  TOK_NEG "-" 4.25.9 { 0 } int vreg 
+|  |  |  TOK_INTCON "2" 4.25.10 { 0 } int const 
+|  TOK_NEG "-" 4.27.1 { 0 } int vreg 
+|  |  TOK_INTCON "4" 4.27.2 { 0 } int const 
+|  TOK_VARDECL "=" 4.29.7 { 0 } 
+|  |  TOK_DECLID "h" 4.29.5 { 0 } int variable lval 
+|  |  |  TOK_INT "int" 4.29.1 { 0 } 
+|  |  TOK_NULL "null" 4.29.9 { 0 } null const 
+|  TOK_VARDECL "=" 4.31.7 { 0 } 
+|  |  TOK_DECLID "w" 4.31.5 { 0 } int variable lval 
+|  |  |  TOK_INT "int" 4.31.1 { 0 } 
+|  |  '+' "+" 4.31.11 { 0 } int vreg 
+|  |  |  TOK_INTCON "3" 4.31.9 { 0 } int const 
+|  |  |  '*' "*" 4.31.23 { 0 } int vreg 
+|  |  |  |  '/' "/" 4.31.19 { 0 } int vreg 
+|  |  |  |  |  '*' "*" 4.31.15 { 0 } int vreg 
+|  |  |  |  |  |  TOK_INTCON "2" 4.31.13 { 0 } int const 
+|  |  |  |  |  |  TOK_INTCON "4" 4.31.17 { 0 } int const 
+|  |  |  |  |  TOK_INTCON "1" 4.31.21 { 0 } int const 
+|  |  |  |  TOK_IDENT "a" 4.31.25 { 0 } int variable lval (4.3.5)
+|  TOK_IFELSE "if" 4.33.1 { 0 } 
+|  |  TOK_EQ "==" 4.33.5 { 0 } int vreg 
+|  |  |  TOK_INTCON "2" 4.33.4 { 0 } int const 
+|  |  |  TOK_INTCON "3" 4.33.7 { 0 } int const 
+|  |  '+' "+" 4.34.2 { 0 } int vreg 
+|  |  |  TOK_INTCON "4" 4.34.1 { 0 } int const 
+|  |  |  TOK_INTCON "6" 4.34.3 { 0 } int const 
+|  |  '+' "+" 4.35.7 { 0 } int vreg 
+|  |  |  TOK_INTCON "1" 4.35.6 { 0 } int const 
+|  |  |  TOK_INTCON "3" 4.35.8 { 0 } int const 
+|  TOK_IF "if" 4.37.1 { 0 } 
+|  |  TOK_IDENT "r" 4.37.4 { 0 } string variable lval (4.15.8)
+|  |  TOK_INTCON "22" 4.37.7 { 0 } int const 
+|  TOK_IF "if" 4.39.1 { 0 } 
+|  |  TOK_NULL "null" 4.39.4 { 0 } null const 
+|  |  TOK_INTCON "0" 4.39.10 { 0 } int const 
+|  TOK_WHILE "while" 4.41.1 { 0 } 
+|  |  '+' "+" 4.41.8 { 0 } int vreg 
+|  |  |  TOK_INTCON "2" 4.41.7 { 0 } int const 
+|  |  |  TOK_INTCON "3" 4.41.9 { 0 } int const 
+|  |  TOK_BLOCK "{" 4.41.12 { 1 } 
+|  |  |  TOK_VARDECL "=" 4.42.8 { 1 } 
+|  |  |  |  TOK_DECLID "a" 4.42.6 { 1 } int variable lval 
+|  |  |  |  |  TOK_INT "int" 4.42.2 { 0 } 
+|  |  |  |  TOK_INTCON "3" 4.42.10 { 1 } int const 
+|  |  |  TOK_VARDECL "=" 4.43.11 { 1 } 
+|  |  |  |  TOK_DECLID "r" 4.43.9 { 1 } string variable lval 
+|  |  |  |  |  TOK_STRING "string" 4.43.2 { 0 } 
+|  |  |  |  TOK_NULL "null" 4.43.13 { 1 } null const 
+|  |  |  TOK_VARDECL "=" 4.44.8 { 1 } 
+|  |  |  |  TOK_DECLID "a" 4.44.6 { 1 } int variable lval 
+|  |  |  |  |  TOK_INT "int" 4.44.2 { 0 } 
+|  |  |  |  TOK_INTCON "3" 4.44.10 { 1 } int const 
+|  |  |  TOK_IF "if" 4.45.2 { 1 } 
+|  |  |  |  TOK_LE "<=" 4.45.6 { 1 } int vreg 
+|  |  |  |  |  TOK_IDENT "a" 4.45.5 { 1 } int variable lval (4.42.6)
+|  |  |  |  |  TOK_INTCON "3" 4.45.8 { 1 } int const 
+|  |  |  |  TOK_BLOCK "{" 4.45.10 { 2 } 
+|  |  |  |  |  '=' "=" 4.45.14 { 2 } int vreg 
+|  |  |  |  |  |  TOK_IDENT "a" 4.45.12 { 2 } int variable lval (4.42.6)
+|  |  |  |  |  |  TOK_INTCON "2" 4.45.16 { 2 } int const 
+|  |  |  |  |  TOK_VARDECL "=" 4.45.25 { 2 } 
+|  |  |  |  |  |  TOK_DECLID "a" 4.45.23 { 2 } int variable lval 
+|  |  |  |  |  |  |  TOK_INT "int" 4.45.19 { 0 } 
+|  |  |  |  |  |  TOK_INTCON "3" 4.45.27 { 2 } int const 
+|  |  |  |  |  '=' "=" 4.45.32 { 2 } int vreg 
+|  |  |  |  |  |  TOK_IDENT "a" 4.45.30 { 2 } int variable lval (4.45.23)
+|  |  |  |  |  |  TOK_INTCON "2" 4.45.34 { 2 } int const 
+|  TOK_WHILE "while" 4.49.1 { 0 } 
+|  |  TOK_GE ">=" 4.49.8 { 0 } 
+|  |  |  TOK_INTCON "4" 4.49.7 { 0 } int const 
+|  |  |  TOK_NULL "null" 4.49.10 { 0 } null const 
+|  |  TOK_INTCON "22" 4.49.16 { 0 } int const 
+|  TOK_WHILE "while" 4.51.1 { 0 } 
+|  |  TOK_NULL "null" 4.51.7 { 0 } null const 
+|  |  TOK_INTCON "0" 4.51.13 { 0 } int const 
+|  TOK_VARDECL "=" 4.53.9 { 0 } 
+|  |  TOK_DECLID "bar" 4.53.5 { 0 } struct "foo" variable typeid lval 
+|  |  |  TOK_TYPEID "foo" 4.53.1 { 0 } 
+|  |  TOK_NULL "null" 4.53.11 { 0 } null const 
+|  '=' "=" 4.55.3 { 0 } string vreg 
+|  |  TOK_IDENT "r" 4.55.1 { 0 } string variable lval (4.15.8)
+|  |  TOK_STRINGCON ""hello"" 4.55.5 { 0 } string const 
+|  TOK_VARDECL "=" 4.57.12 { 0 } 
+|  |  TOK_DECLID "let" 4.57.8 { 0 } int array variable lval 
+|  |  |  TOK_INT "int" 4.57.1 { 0 } 
+|  |  |  TOK_NEWARRAY "[]" 4.57.5 { 0 } 
+|  |  TOK_NULL "null" 4.57.14 { 0 } null const 
+|  TOK_PROTOTYPE "function" 4.59.5 { 0 } 
+|  |  TOK_DECLID "call" 4.59.5 { 0 } int prototype 
+|  |  |  TOK_INT "int" 4.59.1 { 0 } 
+|  |  TOK_PARAMLIST "(" 4.59.9 { 0 } 
+|  |  |  TOK_DECLID "k" 4.59.14 { 0 } int variable parameters lval 
+|  |  |  |  TOK_INT "int" 4.59.10 { 31014240 } 
+|  |  |  TOK_DECLID "v" 4.59.24 { 0 } string variable parameters lval 
+|  |  |  |  TOK_STRING "string" 4.59.17 { 0 } 
+|  |  |  TOK_DECLID "li" 4.59.31 { 0 } int variable parameters lval 
+|  |  |  |  TOK_INT "int" 4.59.27 { 0 } 
+|  |  ';' ";" 4.59.34 { 0 } 
+|  TOK_PROTOTYPE "function" 4.61.5 { 0 } 
+|  |  TOK_DECLID "call" 4.61.5 { 0 } int prototype 
+|  |  |  TOK_INT "int" 4.61.1 { 0 } 
+|  |  TOK_PARAMLIST "(" 4.61.9 { 0 } 
+|  |  |  TOK_DECLID "k" 4.61.17 { 0 } string variable parameters lval 
+|  |  |  |  TOK_STRING "string" 4.61.10 { 0 } 
+|  |  |  TOK_DECLID "v" 4.61.27 { 0 } string variable parameters lval 
+|  |  |  |  TOK_STRING "string" 4.61.20 { 0 } 
+|  |  |  TOK_DECLID "li" 4.61.34 { 0 } int variable parameters lval 
+|  |  |  |  TOK_INT "int" 4.61.30 { 0 } 
+|  |  ';' ";" 4.61.37 { 0 } 
+|  TOK_FUNCTION "function" 4.63.5 { 0 } 
+|  |  TOK_DECLID "call" 4.63.5 { 0 } int function 
+|  |  |  TOK_INT "int" 4.63.1 { 0 } 
+|  |  TOK_PARAMLIST "(" 4.63.9 { 0 } 
+|  |  |  TOK_DECLID "k" 4.63.14 { 0 } int variable parameters lval 
+|  |  |  |  TOK_INT "int" 4.63.10 { 0 } 
+|  |  |  TOK_DECLID "v" 4.63.24 { 0 } string variable parameters lval 
+|  |  |  |  TOK_STRING "string" 4.63.17 { 0 } 
+|  |  |  TOK_DECLID "li" 4.63.31 { 0 } int variable parameters lval 
+|  |  |  |  TOK_INT "int" 4.63.27 { 0 } 
+|  |  TOK_BLOCK "{" 4.63.34 { 4 } 
+|  |  |  TOK_IF "if" 4.63.36 { 4 } 
+|  |  |  |  TOK_INTCON "1" 4.63.39 { 4 } int const 
+|  |  |  |  TOK_BLOCK "{" 4.63.41 { 5 } 
+|  |  |  |  |  TOK_VARDECL "=" 4.63.57 { 5 } 
+|  |  |  |  |  |  TOK_DECLID "blockblock" 4.63.46 { 5 } int variable lval 
+|  |  |  |  |  |  |  TOK_INT "int" 4.63.42 { 0 } 
+|  |  |  |  |  |  TOK_INTCON "1" 4.63.59 { 5 } int const 
+|  |  |  TOK_RETURN "return" 4.63.63 { 5 } 
+|  |  |  |  TOK_INTCON "0" 4.63.70 { 0 } 

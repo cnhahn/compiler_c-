@@ -1,0 +1,4 @@
+string_set[   1]:    3729804957429652673 0x1f3ba68->"<<ROOT>>"
+load_factor = 0.500
+bucket_count = 2
+max_bucket_size = 1
